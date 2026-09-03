@@ -1,2 +1,6 @@
 Talha: This is how to create a push request
+
 Talha: This is second commit from me.
+
+Usman: This is second line in file added by me. 
+
