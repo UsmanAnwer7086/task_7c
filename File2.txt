@@ -1,1 +1,2 @@
 Usman: This is first line of code in File2.txt
+Ali: This is the second line of cide in File2.txt
