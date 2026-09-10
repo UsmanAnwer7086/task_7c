@@ -4,3 +4,5 @@ models/
 
 gitdvc/
 /data
+# add s3 to remote repo
+s3/
