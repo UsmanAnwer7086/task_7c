@@ -23,10 +23,10 @@ X = df[["Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked"]]
 y = df["Survived"]
 
 # 80-20 Train-Test split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)
 
 # Train model
-model = LogisticRegression(max_iter=500).fit(X_train, y_train)
+model = LogisticRegression(max_iter=1000).fit(X_train, y_train)
 
 # Save preprocessing and model artifacts
 joblib.dump(model, "models/logistic_model.pkl")
